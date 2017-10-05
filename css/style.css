@@ -1,0 +1,1071 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Architects+Daughter");
+body {
+  background: url("../images/leaf_320_960.png") center top repeat, url("../images/back_concrete.jpg") center top repeat;
+  font-family: 'Rounded Mplus 1c', '游ゴシック体', 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  font-weight: bold;
+  color: #371e0f;
+}
+
+h1 {
+  letter-spacing: 0.1em;
+  font-size: 30px;
+}
+
+h2 {
+  letter-spacing: 0.1em;
+  font-size: 28px;
+}
+
+h3 {
+  letter-spacing: 0.1em;
+  font-size: 20px;
+}
+
+p {
+  letter-spacing: 0.1em;
+  line-height: 28px;
+  font-size: 16px;
+}
+
+a {
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  color: #963200;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+th, td {
+  font-size: 16px;
+  letter-spacing: 0.1em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  letter-spacing: 0.1em;
+  font-size: 16px;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background: url("../images/leaf_960_960.png") center top repeat-y, url("../images/back_wood.jpg") center top repeat-y;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+}
+
+.gl-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 960px;
+  height: 140px;
+  background: url("../images/board_top.jpg") center top no-repeat;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.6);
+}
+
+.gl-header .logo {
+  margin-right: 30px;
+}
+
+.gl-header .container {
+  margin-top: 12px;
+  opacity: 0.9;
+}
+
+.gl-header .shop-name {
+  display: table;
+}
+
+.gl-header .shop-name h1 {
+  display: table-cell;
+  padding-left: 16px;
+  color: #ffffff;
+}
+
+.gl-header .shop-name h2 {
+  display: table-cell;
+  padding-left: 20px;
+  color: #ffffff;
+}
+
+.gl-header .gl-nav ul {
+  display: table;
+  margin-top: 5px;
+}
+
+.gl-header .gl-nav ul li {
+  display: table-cell;
+  position: relative;
+}
+
+.gl-header .gl-nav ul a {
+  display: block;
+  padding: 0 20px 20px;
+  letter-spacing: 0.1em;
+  font-family: 'Architects Daughter';
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.gl-header .gl-nav ul a:hover {
+  color: #ffff00;
+}
+
+.home .nav-home a::before,
+.about .nav-about a::before,
+.menu .nav-menu a::before,
+.access .nav-access a::before,
+.contact .nav-contact a::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 30px;
+  width: 145px;
+  height: 15px;
+  background: url("../images/current.png") 0 0 no-repeat;
+}
+
+.home .nav-home a::before {
+  left: 0;
+}
+
+.about .nav-about a::before {
+  left: 4px;
+}
+
+.menu .nav-menu a::before {
+  left: 0;
+}
+
+.access .nav-access a::before {
+  left: -3px;
+  background-size: 100% 100%;
+}
+
+.contact .nav-contact a::before {
+  left: 2px;
+  background-size: 100% 100%;
+}
+
+.footer-container {
+  width: 960px;
+  height: 400px;
+  background: url("../images/board_bottom.jpg") center center no-repeat;
+  font-weight: normal;
+  box-shadow: 0 -5px 7px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+}
+
+.footer-container .pig {
+  position: relative;
+}
+
+.footer-container .pig img {
+  position: absolute;
+  top: -75px;
+  left: 80px;
+}
+
+.footer-container .footer-info {
+  padding: 50px 80px 0 80px;
+}
+
+.footer-container .footer-info .footer-picture {
+  float: left;
+}
+
+.footer-container .footer-info .footer-picture img {
+  border: 2px solid rgba(255, 255, 255, 0.9);
+  border-radius: 15px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.footer-container .shop-info-link {
+  float: left;
+  padding: 0 0px 0 50px;
+}
+
+.footer-container .shop-info-link p {
+  position: relative;
+  padding-bottom: 13px;
+}
+
+.footer-container .shop-info-link p:last-of-type {
+  padding-bottom: 0;
+}
+
+.footer-container .shop-info-link a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.footer-container .shop-info-link a:hover::after {
+  color: #ffff00;
+}
+
+.footer-container .footer-leaf-time a::after {
+  content: "営業時間";
+  left: 28px;
+}
+
+.footer-container .footer-leaf-map a::after {
+  content: "地図";
+  left: 38px;
+  letter-spacing: 15px;
+}
+
+.footer-container .footer-leaf-reservation a::after {
+  content: "ご予約";
+  left: 33px;
+  letter-spacing: 5px;
+}
+
+.footer-container .shop-info-text {
+  float: right;
+}
+
+.footer-container .shop-info-text h2 {
+  margin-bottom: 20px;
+  font-size: 21px;
+  color: #ffffff;
+}
+
+.footer-container .shop-info-text p {
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.footer-container .footer-facebook {
+  width: 170px;
+  height: 45px;
+  margin: 25px 0 0 0;
+}
+
+.footer-container .footer-facebook img {
+  display: block;
+  border-radius: 4px;
+  box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.9) inset, 1px 1px 1px rgba(255, 255, 255, 0.3) inset;
+}
+
+.footer-container .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.footer-container .dish-darble {
+  position: relative;
+  width: 220px;
+}
+
+.footer-container .dish-darble img {
+  position: absolute;
+  top: -130px;
+  left: 800px;
+  width: 220px;
+  height: 223px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-container .dish-darble img {
+    position: absolute;
+    top: -130px;
+    left: 770px;
+    width: 180px;
+    height: auto;
+  }
+}
+
+.footer-container .footer-nav {
+  margin-top: 25px;
+}
+
+.footer-container .footer-nav ul {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-container .footer-nav li {
+  display: table-cell;
+  border-right: 1px solid #ffffff;
+}
+
+.footer-container .footer-nav li a {
+  display: block;
+  padding: 0 30px;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+.footer-container .footer-nav li a:hover {
+  color: #ffff00;
+}
+
+.footer-container .footer-nav li:last-of-type {
+  border-right: none;
+}
+
+.footer-container .copyright {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+/*
+===================================================
+    Home
+===================================================*/
+.home .main-img {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  background: url("../images/gaku600_400.png") center center no-repeat;
+  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+.home .main-picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 550px;
+  height: 350px;
+  margin: auto;
+}
+
+.home .main-picture ul {
+  position: relative;
+}
+
+.home .main-picture li p {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  text-shadow: 1px 1px 5px #000, -1px -1px 5px #000;
+  font-size: 20px;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.home .bx-wrapper {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.home .main-contents {
+  position: relative;
+  margin: 50px 0 50px 0;
+  background-image: linear-gradient(to bottom, transparent 0%, transparent 14%, rgba(240, 240, 140, 0.7) 15.3%, rgba(240, 240, 140, 0.7) 93%, transparent 94.5%, transparent 100%);
+}
+
+.home .dish-face {
+  position: relative;
+}
+
+.home .dish-face img {
+  position: absolute;
+  top: -15px;
+  left: -100px;
+}
+
+@media screen and (max-width: 767px) {
+  .home .dish-face img {
+    top: -25px;
+    left: 20px;
+    width: 180px;
+  }
+}
+
+.home .introduction {
+  float: left;
+  margin: 170px 0 0 140px;
+}
+
+.home .introduction h1 {
+  padding-bottom: 28px;
+  text-align: center;
+  font-size: 38px;
+}
+
+.home .introduction h2 {
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.home .introduction p {
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.home .introduction-link {
+  padding-top: 15px;
+}
+
+.home .introduction-link a {
+  font-size: 20px;
+}
+
+.home .news {
+  position: relative;
+  float: right;
+  width: 320px;
+  height: 600px;
+  margin: 60px 80px 0 0;
+  background: url("../images/gaku_fb.png") center center no-repeat;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.home .news img {
+  position: absolute;
+  top: -135px;
+  left: 20px;
+}
+
+.home .facebook {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 280px;
+  height: 560px;
+  margin: auto;
+  background: url("../images/fb_sample.jpg") center center no-repeat;
+}
+
+.home .main .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+  bottom: -50px;
+}
+
+/*
+===================================================
+    About
+===================================================*/
+.about .main-contents .page-title {
+  background: url("../images/page_title_about.jpg") center center no-repeat;
+  width: 960px;
+  height: 75px;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5) inset, 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.about .main-contents .page-title h1 {
+  padding: 10px 0 0 2px;
+  font-family: 'Architects Daughter';
+  font-size: 40px;
+}
+
+.about .main-contents .container {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.about .main-contents .container h2 {
+  padding-bottom: 30px;
+}
+
+.about .main-contents .container h3 {
+  padding-bottom: 16px;
+}
+
+.about .main-contents .container p {
+  padding-bottom: 12px;
+}
+
+.about .main-contents .container h2 {
+  vertical-align: sub;
+}
+
+.about .main-contents .container h2::after, .about .main-contents .container h2::before {
+  content: "";
+  display: inline-block;
+  width: 180px;
+  height: 35px;
+}
+
+.about .main-contents .container h2::before {
+  background: url("../images/flower_before.png") 0 0 no-repeat;
+}
+
+.about .main-contents .container h2::after {
+  background: url("../images/flower_after.png") 0 0 no-repeat;
+}
+
+.about .main-contents #concept {
+  padding: 70px 80px;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 2%, rgba(240, 240, 140, 0.7) 98%, transparent 100%);
+}
+
+.about .main-contents #room {
+  padding: 70px 0;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 1%, rgba(240, 240, 140, 0.7) 99%, transparent 100%);
+}
+
+.about .main-contents #room .room-picture {
+  height: 800px;
+  margin: 30px auto;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.about .main-contents #room .room-1f2f {
+  float: left;
+  margin: 70px 0 0 90px;
+}
+
+.about .main-contents #room .room-1f, .about .main-contents #room .room-2f {
+  display: flex;
+  justify-content: flex-end;
+  width: 406px;
+  height: 184px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.about .main-contents #room .room-1f img, .about .main-contents #room .room-2f img {
+  padding-left: 2px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.about .main-contents #room .room-text {
+  width: 216px;
+  height: 180px;
+  padding: 15px 12px 0 20px;
+}
+
+.about .main-contents #room .room-text h3 {
+  line-height: 20px;
+}
+
+.about .main-contents #room .room-text p {
+  text-align: left;
+  line-height: 18px;
+}
+
+.about .main-contents #room .room-img {
+  width: 182px;
+  height: 180px;
+}
+
+.about .main-contents #room .room-1f {
+  margin: 30px 0 40px 0;
+}
+
+.about .main-contents #room .room-2f {
+  margin: 0;
+}
+
+.about .main-contents #room .room-sketch {
+  float: right;
+  margin-bottom: 30px;
+  padding: 70px 90px 0 0;
+}
+
+.about .main-contents #room .room-nakaniwa {
+  display: flex;
+  justify-content: flex-end;
+  clear: both;
+  width: 770px;
+  height: 184px;
+  margin: 40px 0 0 90px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.about .main-contents #room .nakaniwa-text {
+  width: 216px;
+  height: 180px;
+  padding: 15px 12px 0 20px;
+}
+
+.about .main-contents #room .nakaniwa-text h3 {
+  line-height: 20px;
+}
+
+.about .main-contents #room .nakaniwa-text p {
+  text-align: left;
+  line-height: 18px;
+}
+
+.about .main-contents #room .nakaniwa-img {
+  display: flex;
+  justify-content: flex-end;
+  width: 546px;
+  height: 180px;
+}
+
+.about .main-contents #room .nakaniwa-img img {
+  padding-left: 2px;
+}
+
+.about .main-contents #room .nakaniwa-img img:last-of-type {
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+
+.about .main-contents #room .clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.about .main-contents #shop-info-table {
+  padding: 70px 80px;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 1%, rgba(240, 240, 140, 0.7) 99%, transparent 100%);
+}
+
+.about .main-contents #shop-info-table h2 {
+  margin-bottom: 20px;
+}
+
+.about .main-contents #shop-info-table table {
+  margin: 0 auto;
+}
+
+.about .main-contents #shop-info-table tr {
+  border-bottom: 1px dotted #371e0f;
+  text-align: left;
+}
+
+.about .main-contents #shop-info-table tr:last-of-type {
+  border-bottom: none;
+}
+
+.about .main-contents #shop-info-table th {
+  padding: 10px 20px;
+}
+
+.about .main-contents #shop-info-table td {
+  padding: 10px 20px;
+}
+
+/*
+===================================================
+    Menu
+===================================================*/
+.menu .main-contents .page-title {
+  background: url("../images/page_title_menu.jpg") center center no-repeat;
+  width: 960px;
+  height: 75px;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5) inset, 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.menu .main-contents .page-title h1 {
+  padding: 10px 0 0 2px;
+  font-family: 'Architects Daughter';
+  font-size: 40px;
+}
+
+.menu .main-contents .container {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.menu .main-contents .container h2 {
+  padding-bottom: 30px;
+}
+
+.menu .main-contents .container h3 {
+  padding-bottom: 18px;
+}
+
+.menu .main-contents .container p {
+  padding-bottom: 15px;
+}
+
+.menu .main-contents .container h2 {
+  vertical-align: sub;
+}
+
+.menu .main-contents .container h2::after, .menu .main-contents .container h2::before {
+  content: "";
+  display: inline-block;
+  width: 180px;
+  height: 35px;
+}
+
+.menu .main-contents .container h2::before {
+  background: url("../images/flower_before.png") 0 0 no-repeat;
+}
+
+.menu .main-contents .container h2::after {
+  background: url("../images/flower_after.png") 0 0 no-repeat;
+}
+
+.menu .main-contents .taberogu {
+  padding: 70px 80px;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 2.8%, rgba(240, 240, 140, 0.7) 97.2%, transparent 100%);
+}
+
+.menu .main-contents #food {
+  padding: 70px 80px;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 0.4%, rgba(240, 240, 140, 0.7) 99.6%, transparent 100%);
+}
+
+.menu .main-contents .Specialite-1-img, .menu .main-contents .Specialite-2-img {
+  position: relative;
+  width: 580px;
+  height: 400px;
+  margin: 0 auto 25px auto;
+  background: url("../images/gaku580_400.png") center center no-repeat;
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.7);
+}
+
+.menu .main-contents .Specialite-1-img img, .menu .main-contents .Specialite-2-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 540px;
+  height: 360px;
+  margin: auto;
+}
+
+.menu .main-contents .food-img {
+  margin-top: 25px;
+}
+
+.menu .main-contents #course {
+  padding: 70px 80px;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 1.1%, rgba(240, 240, 140, 0.7) 98.9%, transparent 100%);
+}
+
+.menu .main-contents #lunch {
+  padding: 70px 80px;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 1.2%, rgba(240, 240, 140, 0.7) 98.8%, transparent 100%);
+}
+
+.menu .main-contents #drink {
+  padding: 70px 80px;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 1.8%, rgba(240, 240, 140, 0.7) 98.2%, transparent 100%);
+}
+
+.menu .main-contents #drink .drink-img {
+  margin-top: 25px;
+}
+
+.menu .main-contents .menu-list {
+  margin: 30px 0 60px 0;
+}
+
+.menu .main-contents .food-img ul, .menu .main-contents .course-img ul, .menu .main-contents .lunch-img ul, .menu .main-contents .drink-img ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 780px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu .main-contents .food-img li, .menu .main-contents .course-img li, .menu .main-contents .lunch-img li, .menu .main-contents .drink-img li {
+  height: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.menu .main-contents .food-img li img, .menu .main-contents .course-img li img, .menu .main-contents .lunch-img li img, .menu .main-contents .drink-img li img {
+  display: block;
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  border-radius: 15px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+}
+
+.menu .main-contents .food-img figcaption, .menu .main-contents .course-img figcaption, .menu .main-contents .lunch-img figcaption, .menu .main-contents .drink-img figcaption {
+  padding-top: 5px;
+  text-align: center;
+}
+
+/*
+===================================================
+    Access
+===================================================*/
+.access .main .main-contents .page-title {
+  background: url("../images/page_title_access.jpg") center center no-repeat;
+  width: 960px;
+  height: 75px;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5) inset, 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.access .main .main-contents .page-title h1 {
+  padding: 10px 0 0 2px;
+  font-family: 'Architects Daughter';
+  font-size: 40px;
+}
+
+.access .main .main-contents .container {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.access .main .main-contents .container h2 {
+  padding-bottom: 30px;
+}
+
+.access .main .main-contents .container h3 {
+  padding-bottom: 18px;
+}
+
+.access .main .main-contents .container p {
+  padding-bottom: 15px;
+  font-size: 20px;
+}
+
+.access .main .main-contents .container h2 {
+  vertical-align: sub;
+}
+
+.access .main .main-contents .container h2::after, .access .main .main-contents .container h2::before {
+  content: "";
+  display: inline-block;
+  width: 180px;
+  height: 35px;
+}
+
+.access .main .main-contents .container h2::before {
+  background: url("../images/flower_before.png") 0 0 no-repeat;
+}
+
+.access .main .main-contents .container h2::after {
+  background: url("../images/flower_after.png") 0 0 no-repeat;
+}
+
+.access .main .main-contents .map {
+  padding: 70px 0;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 0.4%, rgba(240, 240, 140, 0.7) 99.6%, transparent 100%);
+}
+
+.access .main .main-contents .map-picture {
+  margin-top: 20px;
+}
+
+.access .main .main-contents .map-picture img {
+  width: 760px;
+  height: 620px;
+}
+
+.access .main .main-contents .google-map {
+  margin-top: 40px;
+}
+
+.access .main .main-contents .map-illust {
+  margin: 30px auto;
+  padding: 50px 0 50px 0;
+}
+
+.access .main .main-contents .map-illust-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 760px;
+  margin: 10px auto 10px auto;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.7);
+  text-align: center;
+}
+
+.access .main .main-contents .map-illust-text-1,
+.access .main .main-contents .map-illust-text-2,
+.access .main .main-contents .map-illust-text-3 {
+  width: 256px;
+  padding: 0 30px 0 30px;
+  text-align: left;
+}
+
+.access .main .main-contents .map-illust-img-1 {
+  order: 2;
+}
+
+.access .main .main-contents .map-illust-img-1 img {
+  border-top-right-radius: 14px;
+}
+
+.access .main .main-contents .map-illust-text-1 {
+  order: 1;
+}
+
+.access .main .main-contents .map-illust-img-2 {
+  order: 3;
+  margin: 2px 0 2px 0;
+}
+
+.access .main .main-contents .map-illust-text-2 {
+  order: 4;
+}
+
+.access .main .main-contents .map-illust-img-3 {
+  order: 6;
+}
+
+.access .main .main-contents .map-illust-img-3 img {
+  border-bottom-right-radius: 14px;
+}
+
+.access .main .main-contents .map-illust-text-3 {
+  order: 5;
+}
+
+/*
+===================================================
+    Contact
+===================================================*/
+.contact .main .main-contents .page-title {
+  background: url("../images/page_title_contact.jpg") center center no-repeat;
+  width: 960px;
+  height: 75px;
+  margin-bottom: 30px;
+  padding-left: 80px;
+  box-shadow: 0 5px 7px rgba(0, 0, 0, 0.5) inset, 0 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+.contact .main .main-contents .page-title h1 {
+  padding: 10px 0 0 2px;
+  font-family: 'Architects Daughter';
+  font-size: 40px;
+}
+
+.contact .main .main-contents .container {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.contact .main .main-contents .container h2 {
+  padding-bottom: 30px;
+}
+
+.contact .main .main-contents .container h3 {
+  padding-bottom: 18px;
+}
+
+.contact .main .main-contents .container p {
+  padding-bottom: 15px;
+}
+
+.contact .main .main-contents .container h2 {
+  vertical-align: sub;
+}
+
+.contact .main .main-contents .container h2::after, .contact .main .main-contents .container h2::before {
+  content: "";
+  display: inline-block;
+  width: 180px;
+  height: 35px;
+}
+
+.contact .main .main-contents .container h2::before {
+  background: url("../images/flower_before.png") 0 0 no-repeat;
+}
+
+.contact .main .main-contents .container h2::after {
+  background: url("../images/flower_after.png") 0 0 no-repeat;
+}
+
+.contact .main .main-contents #contact-form {
+  padding: 70px 80px;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(240, 240, 140, 0.7) 1%, rgba(240, 240, 140, 0.7) 99%, transparent 100%);
+}
+
+.contact .main .main-contents .contact-guide {
+  margin-bottom: 50px;
+}
+
+.contact .main .main-contents .tel-number {
+  font-size: 24px;
+}
+
+.contact .main .main-contents .form-area form {
+  text-align: left;
+  margin-top: 30px;
+}
+
+.contact .main .main-contents .form-area table {
+  margin: 0 auto;
+}
+
+.contact .main .main-contents .form-area td {
+  padding: 15px 5px;
+  vertical-align: top;
+}
+
+.contact .main .main-contents .form-area input, .contact .main .main-contents .form-area textarea {
+  height: 30px;
+  border: 1px solid #371e0f;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.contact .main .main-contents .form-area input[type="text"] {
+  width: 250px;
+}
+
+.contact .main .main-contents .form-area input[type="email"] {
+  width: 500px;
+}
+
+.contact .main .main-contents .form-area textarea {
+  width: 500px;
+  height: 300px;
+}
+
+.contact .main .main-contents .form-area .submit {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.contact .main .main-contents .form-area input[type="submit"] {
+  width: 150px;
+  height: 40px;
+  border: 1px solid #006e14;
+  border-radius: 3px;
+  background-color: #00961e;
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.2) inset, 1px 1px 1px rgba(255, 255, 255, 0.3) inset;
+  color: #ffffff;
+}
+
+.contact .main .main-contents .form-area input[type="submit"]:hover {
+  background-color: #00c828;
+}
