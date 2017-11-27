@@ -1,7 +1,6 @@
-# darbre
-## ビストロ ダルブル　恵比寿店
+# ビストロ ダルブル　恵比寿店
 
-### 構成
+## 構成
 ```
 index.html       # トップページ
 about.html       # お店の紹介
@@ -16,5 +15,5 @@ js/
 └─ jquery.bxslider.min.js
 ```
 
-### リンク
+## リンク
 [ビストロ ダルブル　恵比寿店](http://zd2b11.sim.zdrv.com/darbre/)
