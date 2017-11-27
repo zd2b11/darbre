@@ -2,17 +2,17 @@
 
 ## 構成
 ```
-index.html       # トップページ
-about.html       # お店の紹介
-menu.html        # メニュー紹介
-access.html      # ダルブル へのアクセス
-contact.html     # お問い合わせ・ご予約
+index.html       # Home: トップページ
+about.html       # About: お店の紹介
+menu.html        # Menu: メニュー紹介
+access.html      # Access: ダルブル へのアクセス
+contact.html     # Contact: お問い合わせ・ご予約
 css/
-├─ jquery.bxslider.css
-├─ sanitize.css
-└─ style.css
+ ├─ jquery.bxslider.css
+ ├─ sanitize.css
+ └─ style.css
 js/
-└─ jquery.bxslider.min.js
+ └─ jquery.bxslider.min.js
 ```
 
 ## リンク
